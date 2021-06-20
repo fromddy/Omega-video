@@ -1,0 +1,38 @@
+
+================================================================================
+2021-06-20 08:34:41                                           1s elapsed
+---- Requests ------------------------------------------------------------------
+> Global                                                   (OK=200    KO=0     )
+> search request                                           (OK=200    KO=0     )
+
+---- find video ----------------------------------------------------------------
+[##########################################################################]100%
+          waiting: 0      / active: 0      / done: 200   
+================================================================================
+
+Simulation gatlingtest.GatlingTestSimulation completed in 1 seconds
+Parsing log file(s)...
+Parsing log file(s) done
+Generating reports...
+
+================================================================================
+---- Global Information --------------------------------------------------------
+> request count                                        200 (OK=200    KO=0     )
+> min response time                                    555 (OK=555    KO=-     )
+> max response time                                   1283 (OK=1283   KO=-     )
+> mean response time                                  1026 (OK=1026   KO=-     )
+> std deviation                                        161 (OK=161    KO=-     )
+> response time 50th percentile                       1082 (OK=1082   KO=-     )
+> response time 75th percentile                       1151 (OK=1151   KO=-     )
+> response time 95th percentile                       1216 (OK=1216   KO=-     )
+> response time 99th percentile                       1234 (OK=1234   KO=-     )
+> mean requests/sec                                    100 (OK=100    KO=-     )
+---- Response Time Distribution ------------------------------------------------
+> t < 800 ms                                            27 ( 14%)
+> 800 ms < t < 1200 ms                                 155 ( 78%)
+> t > 1200 ms                                           18 (  9%)
+> failed                                                 0 (  0%)
+================================================================================
+
+Reports generated in 0s.
+
