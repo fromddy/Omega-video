@@ -32,7 +32,7 @@ https://www.bilibili.com/video/BV1XU4y157PV
 
 ### 视频转码
 
-使用spring-boot框架， 定时从消息队列中提取消息，然后将1080p视频转化为720p和260p, 转码使用JAVE2库。 
+使用spring-boot框架， 定时从消息队列中提取消息，然后将1080p视频转化为720p和360p, 转码使用JAVE2库。 
 
 ### 文件存储
 
